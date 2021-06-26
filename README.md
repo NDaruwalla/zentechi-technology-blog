@@ -8,6 +8,9 @@
   ## Github Repository 
   [Zentechi on Github](https://github.com/NDaruwalla/zentechi-technology-blog)
 
+  ## Heroku 
+  [Zentechi on Heroku](https://sheltered-mesa-69370.herokuapp.com/)
+
 ## User Story 
    ```md
   AS A developer who writes about tech
