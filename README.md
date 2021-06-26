@@ -28,15 +28,16 @@
   ## Heroku Link 
   [Zentechi on Heroku](https://sheltered-mesa-69370.herokuapp.com/)
 
-  ## Videos & Screen Captures
-  
-  ### Video Demonstration of Functionality
+  ## Screen Captures
 
-  [Video Name](https://youtu.be/linkinsertedhere)
 
-  ### Screen Captures
+  ### Entity Relationship Diagram (ERD)
   Image of Zentechi schema showing table relationships created with Drawio (https://app.diagrams.net/)
- ![name](Assets/img/zentechi_schema.jpg)
+ ![ERD](Assets/images/zentechi_schema.jpg)
+
+   ### Zentechi Application Homepage
+  Image of Zentechi schema showing table relationships created with Drawio (https://app.diagrams.net/)
+ ![ERD](Assets/images/homepage.png)
 
 
   ## User Story 
