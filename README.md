@@ -54,3 +54,21 @@
   WHEN I am idle on the site for more than a set time
   THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
   ```
+
+   ## Tools
+  The tools used to create this application include: HTML, CSS, Bootstrap, JavaScript, MySql, Node, Sequelize, Bcrypt, Dotenv, Express, Express-handlebars, Express-session, Heroku, Github, Git Bash, and Visual Studio Code.
+
+  ## Installation
+  The following packages were installed:
+
+  - [express-handlebars](https://www.npmjs.com/package/express-handlebars) package is used to implement Handlebars.js for Views.
+  - [MySQL2](https://www.npmjs.com/package/mysql2), and
+  - [Sequelize](https://www.npmjs.com/package/sequelize) packages are used to connect to a MySQL database for the Models, and create an Express.js API for Controllers.
+  - [dotenv package](https://www.npmjs.com/package/dotenv) is used for environment variables.
+  - [bcrypt package](https://www.npmjs.com/package/bcrypt) is used to hash passwords.
+  - [express-session](https://www.npmjs.com/package/express-session) package adds authentication.
+  - [connect-session-sequelize](https://www.npmjs.com/package/connect-session-sequelize) package adds authentication.
+  - [express-session](https://www.npmjs.com/package/express-session) package stores the session data on the client in a cookie. When you are idle on the site for more than a set time, the cookie will expire and you will be required to log in again to start a new session. This is the default behavior and nothing is required other than other than implementing the npm package.
+
+  ## Use
+  Use this application is used to read posts, create posts, and comment on posts about technology related topics. 
