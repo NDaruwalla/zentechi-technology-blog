@@ -4,9 +4,8 @@
 
   ## Table of Contents
   - [Description / Objective](#description--objective)
-  - [Github Repository](#github-repository)
-  - [Heroku Link](#heroku-link)
-  - [Videos & Screen Captures](#videos--screen-captures)
+  - [Links](#links)
+  - [Screen Captures](#screen-captures)
   - [User Story](#user-story)
   - [Acceptance Criteria](#acceptance-criteria)
   - [Key Features](#key-features)
@@ -22,10 +21,11 @@
   ## Description / Objective
   Zentechi is a technology blog site. It is designed to be a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and also comment on other developers’ posts. This site was built and deployed to Heroku. It follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
-  ## Github Repository 
+  ## Links
+  ### Github Repository 
   [Zentechi on Github](https://github.com/NDaruwalla/zentechi-technology-blog)
 
-  ## Heroku Link 
+  ### Heroku Link 
   [Zentechi on Heroku](https://sheltered-mesa-69370.herokuapp.com/)
 
   ## Screen Captures
@@ -33,11 +33,13 @@
 
   ### Entity Relationship Diagram (ERD)
   Image of Zentechi schema showing table relationships created with Drawio (https://app.diagrams.net/)
- ![ERD](Assets/images/zentechi_schema.jpg)
+
+ ![ERD](Assets/images/zentechi_schema.png)
 
    ### Zentechi Application Homepage
-  Image of Zentechi schema showing table relationships created with Drawio (https://app.diagrams.net/)
- ![ERD](Assets/images/homepage.png)
+  Image of Zentechi application homepage showing a series of posts with comments and application navigation.
+
+ ![Homepage](Assets/images/homepage.png)
 
 
   ## User Story 
@@ -124,6 +126,7 @@
   The following references were used to create this application: 
   - https://www.sitepoint.com/a-beginners-guide-to-handlebars/
   - https://devcenter.heroku.com/articles/deploying-nodejs
+
 
   ## Tests
   No tests are available at this time
