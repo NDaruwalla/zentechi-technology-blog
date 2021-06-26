@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Zentechi</title>
+  <link rel="shortcut icon" type="image/png" href="/public/images/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+  <div class="wrapper">
+    <header>
+        <h1 class="title is-2">Zentechi Technology Blog</h1>
+      
+          <nav class="zNav"></nav>
+            {{#if loggedIn}}
+            <a href="/" class="navbar-item is-hoverable pl-3">Homepage</a>
+            <a href="/dashboard" class="navbar-item is-hoverable">Dashboard</a>
+            <a href="/dashboard/create/" class="navbar-item is-hoverable mr-3">Create Post</a>
+            <button id="logout" class="button is-danger is-light">Logout</button>
+            {{else}}
+            <a href="/" class="navbar-item is-hoverable pt-1">Homepage</a>
+            <a href="/login" class="button is-primary is-light">Login</a>
+            {{/if}}
+        </nav>
+    </header>
+
+    <main>
+            {{{ body }}}
+    </main>
+
+     <footer class="zfooter"></footer>
+        <div class="row-is-full content has-text-centered">
+            <p>
+            <a href="/">Homepage</a>{{#if loggedIn}} | 
+            <a href="/dashboard/">Dashboard</a> | 
+            <a href="/dashboard/create/">Create Post</a>
+            {{else}}
+             | <a href="/login/">Login</a>
+            {{/if}}
+            </p>
+        </div>
+      <div class="row-is-full content has-text-centered pb-4">
+    <p>
+      <strong>Zentechi</strong> |
+             <a href="mailto:ndaruwalla@gmail.com"><i class="fas fa-envelope"></i></a>
+    </p>
+  </div>
+    </footer>
+  </div>
+
+{{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}
+</body>
+
+</html>

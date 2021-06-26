@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+  }
+
+  /* styling for page */
+  body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0%;
+    font-family: sans-serif;
+    color: rgb(32, 32, 32);
+    font-family: cursive;
+    font-size: larger;
+    margin-bottom: 2%;
+    background-image: url('../images/background.jpg');
+    /* image credit: freepiks */
+  }
+  
+  /* styling for links */
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(2, 4, 104);
+  }
+  
+  a:hover {
+    color: #568ece;
+  }
+  
+  button {
+    border: 0;
+    padding: 1%;
+    font-weight: bold;
+    transition: background-color .1s;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .zNav {
+    /* background-color:rgb(89, 133, 216);
+    color: rgb(6, 2, 22); */
+    padding-right: 1.25%;
+  }
+
+  /* style posts */
+  .post-list {
+    margin: 0;
+    padding: 0;
+  }
+
+  .new-post-form {
+    margin-bottom: 2%;
+  }
+  
+  textarea, input {
+    padding: .5%;
+    border-radius: 5px;
+  }
+  
+  textarea:focus, input:focus {
+    outline: none;
+    border: 2px solid #1115e9;
+  }
+  
+  textarea {
+    min-width: 60%;
+    min-height: 100px;
+   }
+  
+  form > div {
+    margin-bottom: 2%;
+  }
+  
+  form label {
+    display: block;
+  }
+  
+  .wrapper {
+    width: 100%;
+    min-height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+  
+  header {
+    border-bottom: 3px solid rgb(25, 25, 27);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: none;
+  }
+  
+  main {
+    flex: 1;
+    padding: 2% 4%;
+  }
+ 
+  .post {
+    margin-bottom: 1%;
+    line-height: 150%;
+    }
+  
+  .post .title span {
+    font-size: 95%;
+    color: #03083b;
+      
+  }
+  
+  .edit-link {
+    display: block;
+    margin: -1.5% 0 2% 0;
+  }
+  
+  .comment-form {
+    margin-bottom: 1%;
+  }
+  
+  .comment {
+    padding: 2%;
+    margin-bottom: 1%;
+    background-color: #d3e3f5;
+  }
+  
+  .comment:nth-child(odd) {
+    background-color: #c5f5f7;
+  }
+  
+  .comment .meta {
+    font-size: 90%;
+    margin-bottom: .5%;
+    opacity: .6;
+  }
+  
+  .edit-post-form {
+    margin-bottom: 2%;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    font-size: 110%;
+    background-color: none;
+  }
+  .zfooter {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: 110%;
+    background-color: none;
+    }
+
+  .card {
+      margin-bottom: 1em;
+      margin-top: 2em;
+      padding-bottom: 2%;
+      background-color: #98d6ee;
+  }
+  .card-content {
+    margin-bottom: 3%;
+    padding-bottom: 1%;
+    background-color: #98d6ee;
+   }
+
+  .rows{
+      display:flex;
+      flex-direction: column;
+  }
