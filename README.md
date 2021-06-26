@@ -1,6 +1,23 @@
 # Zentechi Technology Blog
-![Icon Name](Assets/img/blog.png)
+![Icon Name](Assets/images/blog.png)
 <!-- image credit: this image is from icons8-->
+
+  ## Table of Contents
+  - [Description / Objective](#description--objective)
+  - [Github Repository](#github-repository)
+  - [Heroku Link](#heroku-link)
+  - [Videos & Screen Captures](#videos--screen-captures)
+  - [User Story](#user-story)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [Key Features](#key-features)
+  - [Tools](#tools)
+  - [Installation](#installation)
+  - [Use](#use)
+  - [License](#license)
+  - [Contributors](#contributors)
+  - [References](#references)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Description / Objective
   Zentechi is a technology blog site. It is designed to be a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and also comment on other developers’ posts. This site was built and deployed to Heroku. It follows the MVC paradigm in its architectural structure, uses Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
@@ -8,10 +25,21 @@
   ## Github Repository 
   [Zentechi on Github](https://github.com/NDaruwalla/zentechi-technology-blog)
 
-  ## Heroku 
+  ## Heroku Link 
   [Zentechi on Heroku](https://sheltered-mesa-69370.herokuapp.com/)
 
-## User Story 
+  ## Videos & Screen Captures
+  
+  ### Video Demonstration of Functionality
+
+  [Video Name](https://youtu.be/linkinsertedhere)
+
+  ### Screen Captures
+  Image of Zentechi schema showing table relationships created with Drawio (https://app.diagrams.net/)
+ ![name](Assets/img/zentechi_schema.jpg)
+
+
+  ## User Story 
    ```md
   AS A developer who writes about tech
   I WANT a CMS-style blog site
@@ -54,8 +82,16 @@
   WHEN I am idle on the site for more than a set time
   THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
   ```
+  ## Key Features 
+  The key features of this application include:
 
-   ## Tools
+  * Model-View-Controller paradigm followed for application folder structure
+  * A clean modern front-end
+  * Login and sign up functionality
+  * Blog posts with comments enabled
+
+
+  ## Tools
   The tools used to create this application include: HTML, CSS, Bootstrap, JavaScript, MySql, Node, Sequelize, Bcrypt, Dotenv, Express, Express-handlebars, Express-session, Heroku, Github, Git Bash, and Visual Studio Code.
 
   ## Installation
@@ -72,3 +108,29 @@
 
   ## Use
   Use this application is used to read posts, create posts, and comment on posts about technology related topics. 
+
+  ## License
+  MIT
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+  
+  Click badge for license description.
+  
+  ## Contributors
+  Nicole Daruwalla 
+
+  ## References
+  The following references were used to create this application: 
+  - https://www.sitepoint.com/a-beginners-guide-to-handlebars/
+  - https://devcenter.heroku.com/articles/deploying-nodejs
+
+  ## Tests
+  No tests are available at this time
+
+  ## Questions
+  If you have questions or need help with this application:
+
+  Contact me on GitHub:
+  [ndaruwalla](https://github.com/ndaruwalla)
+ 
+  Or, via [Email](mailto:nicole.daruwalla@gmail.com)
